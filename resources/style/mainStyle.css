@@ -1,5 +1,9 @@
 
 /*style for main landing page*/
+html {
+  font-family: 'Bakbak One', cursive;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -14,6 +18,12 @@ li {
   list-style-type: none;
 }
 
+footer {
+  width: 100%;
+  height: 5%;
+  margin-top: 5em;
+}
+
 .navbar {
   width: 100%;
   height: auto;
@@ -26,6 +36,7 @@ li {
 .colFlexbox {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .spaceAround {
@@ -130,6 +141,19 @@ li {
   padding: 70px 45px;
 }
 
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.babak {
+  font-family: 'Bakbak One', cursive;
+}
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
 
 .isWhite {
   color: white;
@@ -212,11 +236,11 @@ li {
 }
 
 .carouselButtonLeft {
-  left: -40px;
+  left: -50px;
 }
 
 .carouselButtonRight {
-  right: -40px;
+  right: -50px;
 }
 
 .carouselNav {

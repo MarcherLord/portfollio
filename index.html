@@ -4,6 +4,9 @@
 		<title>Scott Lithgow | Front End Developer</title>
 		<meta charset="utf-8">
     <link href = 'resources/style/mainStyle.css' rel = 'stylesheet'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Oswald:wght@300&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div class = 'flexbox spaceAround navbar'>
@@ -16,7 +19,7 @@
 		<main>
       <section class = 'colFlexbox spaceAround main'>
           <h1 class = 'size1'>Front-end Developer.</h1>
-          <h2 class = 'size3'>I design and code Beautiful, Simple, Websites.</h2>
+          <h2 class = 'size3 oswald '>I design and code Beautiful, Simple, Websites.</h2>
           <div class = 'cirlcleOutline flexbox spaceAround spaceAtTop'>
             <img src = 'resources/images/person.png' alt = 'person' class = 'medimg'>
           </div>
@@ -25,7 +28,7 @@
       <section class = 'backgroundGreen flexbox spaceAround'>
         <article class = 'intro'>
           <h2 class = 'size2 isWhite'>Hi, A little about me.</h2>
-          <h3 class = 'size5 isWhite'>While my journey into the world of programming may have sarted relativly recently, i have fallen deeply in love with the creativity and promblem solving mindset that full stack developement has allowed me to explore.</h3>
+          <h3 class = 'size5 isWhite oswald'>While my journey into the world of programming may have sarted relativly recently, i have fallen deeply in love with the creativity and promblem solving mindset that full stack developement has allowed me to explore.</h3>
         </article>
       </section>
       <section class =  'container flexbox'>
@@ -82,13 +85,13 @@
 				<div class = 'carouselTrackContainer'>
 					<ul class = 'carouselTrack'>
 						<li class = 'carouselSlide currentSlide'>
-							<img src = 'resources/images/person.png' class = 'carouselImage' alt =''>
+							<iframe id = 'ex1' src = 'https://marcherlord.github.io/fotomatic/' width = '100%' height = '100%'></iframe>
 						</li>
 						<li class = 'carouselSlide'>
-							<img src = 'resources/images/compNew.png' class = 'carouselImage' alt =''>
+							<iframe id = 'ex1' src = 'https://marcherlord.github.io/teaCozy/' width = '100%' height = '100%'></iframe>
 						</li>
 						<li class = 'carouselSlide'>
-							<img src = 'resources/images/html5.png' class = 'carouselImage' alt =''>
+							<iframe id = 'ex1' src = 'https://marcherlord.github.io/excursion/' width = '100%' height = '100%'></iframe>
 						</li>
 					</ul>
 				</div>
@@ -103,8 +106,13 @@
 			</div>
 
 		</main>
-		<footer id = 'contact'>
-
+		<footer class = 'colFlexbox' id = 'contact'>
+			<h2>If you'd like to collaberate on a project contact me on..</h2>
+			<div class = 'contact'>
+				<p class = 'size3 isGreen'>instagram</p>
+				<p class = 'size3 isGreen'>discord</p>
+				<p class = 'size3 isGreen'>github</p>
+			</div>
 		</footer>
 		<script src = 'script.js'></script>
 	</body>
