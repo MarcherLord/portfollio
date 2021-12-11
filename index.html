@@ -9,7 +9,7 @@
 		<div class = 'flexbox spaceAround navbar'>
       <img src = 'resources/images/profile.png' alt = 'icon' class = 'smlimg'>
   		<nav class = 'flexbox navItems'>
-        <a href = "#prodjects" class = 'size4'>Projects</a>
+        <a href = "#projects" class = 'size4'>Projects</a>
         <a href = '#contact' class = 'size4 isGreen hasOutline'>Contact</a>
   		</nav>
     </div>
@@ -24,8 +24,8 @@
       </section>
       <section class = 'backgroundGreen flexbox spaceAround'>
         <article class = 'intro'>
-          <h2 class = 'size2 isWhite'>Lorem ipsum dolor sit amet</h2>
-          <h3 class = 'size5 isWhite'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h3>
+          <h2 class = 'size2 isWhite'>Hi, A little about me.</h2>
+          <h3 class = 'size5 isWhite'>While my journey into the world of programming may have sarted relativly recently, i have fallen deeply in love with the creativity and promblem solving mindset that full stack developement has allowed me to explore.</h3>
         </article>
       </section>
       <section class =  'container flexbox'>
@@ -75,9 +75,37 @@
 					</div>
         </div>
       </section>
+			<div class = 'carousel' id = 'projects'>
+				<button class = 'carouselButton carouselButtonLeft isHidden'>
+					<img src = 'resources/images/left.png' alt = ''>
+				</button>
+				<div class = 'carouselTrackContainer'>
+					<ul class = 'carouselTrack'>
+						<li class = 'carouselSlide currentSlide'>
+							<img src = 'resources/images/person.png' class = 'carouselImage' alt =''>
+						</li>
+						<li class = 'carouselSlide'>
+							<img src = 'resources/images/compNew.png' class = 'carouselImage' alt =''>
+						</li>
+						<li class = 'carouselSlide'>
+							<img src = 'resources/images/html5.png' class = 'carouselImage' alt =''>
+						</li>
+					</ul>
+				</div>
+				<button class = 'carouselButton carouselButtonRight'>
+					<img src = resources/images/right.png src = ''>
+				</button>
+				<div class = 'carouselNav'>
+					<button class = 'carouselIndictator currentSlide'></button>
+					<button class = 'carouselIndictator'></button>
+					<button class = 'carouselIndictator'></button>
+				</div>
+			</div>
+
 		</main>
-		<footer>
+		<footer id = 'contact'>
 
 		</footer>
+		<script src = 'script.js'></script>
 	</body>
 </html>

@@ -1,5 +1,5 @@
 
-
+/*style for main landing page*/
 a {
   text-decoration: none;
   color: black;
@@ -116,7 +116,7 @@ li {
 }
 
 .inner {
-  height: :320px:
+  height: 320px:
 }
 
 .flexItem {
@@ -160,4 +160,85 @@ li {
     position: relative;
     bottom: 0;
   }
+}
+
+/*style for carousel*/
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carouselImage {
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carouselTrackContainer {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselTrack {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carouselSlide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carouselImage {
+  width: 100%;
+}
+
+.carouselButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.carouselButtonLeft {
+  left: -40px;
+}
+
+.carouselButtonRight {
+  right: -40px;
+}
+
+.carouselNav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.carouselIndictator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgb(0,0,0,.3);
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.carouselIndictator.currentSlide {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.isHidden {
+  display: none;
 }
